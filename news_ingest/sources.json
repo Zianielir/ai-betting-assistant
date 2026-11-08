@@ -1,0 +1,878 @@
+[
+  {
+    "id": "sky_sports",
+    "name": "Sky Sports",
+    "workbook_row": 2,
+    "workbook_claims": {
+      "Источник": "Sky Sports",
+      "Приоритет": "П1",
+      "Авторитетность": "Высокая",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Общие новости, травмы, трансферы, Transfer Centre",
+      "Есть RSS?": "Да, новости",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.skysports.com/football/news",
+    "feed_candidates": [
+      "https://www.skysports.com/rss/11095"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.skysports.com/sitemap.xml"
+    ],
+    "kind": "sky",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "espn",
+    "name": "ESPN",
+    "workbook_row": 3,
+    "workbook_claims": {
+      "Источник": "ESPN",
+      "Приоритет": "П1",
+      "Авторитетность": "Высокая",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Новости, результаты, события матчей, составы",
+      "Есть RSS?": "Да",
+      "Есть API?": "Служебный JSON без документации",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.espn.com/soccer/",
+    "feed_candidates": [
+      "https://www.espn.com/espn/rss/soccer/news"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "talksport",
+    "name": "talkSPORT",
+    "workbook_row": 4,
+    "workbook_claims": {
+      "Источник": "talkSPORT",
+      "Приоритет": "П1",
+      "Авторитетность": "Высокая",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Новости, интервью, трансферы",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://talksport.com/football/",
+    "feed_candidates": [
+      "https://talksport.com/football/feed/"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "wordpress",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "independent",
+    "name": "The Independent",
+    "workbook_row": 5,
+    "workbook_claims": {
+      "Источник": "The Independent",
+      "Приоритет": "П1",
+      "Авторитетность": "Высокая",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Новости АПЛ, live-блоги",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Открытые материалы"
+    },
+    "home": "https://www.independent.co.uk/sport/football",
+    "feed_candidates": [
+      "https://www.independent.co.uk/sport/football/premier-league/rss",
+      "https://www.independent.co.uk/sport/football/rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.independent.co.uk/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "fantasy_football_scout",
+    "name": "Fantasy Football Scout",
+    "workbook_row": 6,
+    "workbook_claims": {
+      "Источник": "Fantasy Football Scout",
+      "Приоритет": "П1",
+      "Авторитетность": "Высокая в своей теме",
+      "Много ли новостей": "Сводки и новости",
+      "Для чего использовать": "Травмы, дисквалификации, прогнозы составов",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Основные таблицы; часть статей платная"
+    },
+    "home": "https://www.fantasyfootballscout.co.uk/",
+    "feed_candidates": [
+      "https://www.fantasyfootballscout.co.uk/feed/"
+    ],
+    "api_candidates": [
+      "https://www.fantasyfootballscout.co.uk/wp-json/wp/v2/posts"
+    ],
+    "sitemap_candidates": [
+      "https://www.fantasyfootballscout.co.uk/post-sitemap.xml"
+    ],
+    "kind": "wordpress",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "rotowire",
+    "name": "RotoWire",
+    "workbook_row": 7,
+    "workbook_claims": {
+      "Источник": "RotoWire",
+      "Приоритет": "П1",
+      "Авторитетность": "Высокая в своей теме",
+      "Много ли новостей": "Много по игрокам",
+      "Для чего использовать": "Травмы, доступность игроков, составы",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Да, по ключу",
+      "Бесплатно?": "Сайт частично; условия API не уточнены"
+    },
+    "home": "https://www.rotowire.com/soccer/articles/",
+    "feed_candidates": [
+      "https://www.rotowire.com/rss/articles.php?sport=Soccer",
+      "https://www.rotowire.com/rss/news.php?sport=Soccer"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "sports_mole",
+    "name": "Sports Mole",
+    "workbook_row": 8,
+    "workbook_claims": {
+      "Источник": "Sports Mole",
+      "Приоритет": "П1",
+      "Авторитетность": "Средняя",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Травмы, превью, предполагаемые составы",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.sportsmole.co.uk/football/premier-league/",
+    "feed_candidates": [
+      "https://www.sportsmole.co.uk/rss/football.xml"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.sportsmole.co.uk/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "fpl",
+    "name": "FPL",
+    "workbook_row": 9,
+    "workbook_claims": {
+      "Источник": "FPL",
+      "Приоритет": "П1",
+      "Авторитетность": "Официальный",
+      "Много ли новостей": "Структурированные данные",
+      "Для чего использовать": "Статусы игроков, пояснения, календарь",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Служебный JSON без ключа",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://fantasy.premierleague.com/",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "excluded",
+    "scope": "excluded",
+    "exclusion_reason": "structured_data_excluded_by_user",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "official_clubs",
+    "name": "Официальные сайты 20 клубов",
+    "workbook_row": 10,
+    "workbook_claims": {
+      "Источник": "Официальные сайты 20 клубов",
+      "Приоритет": "П1",
+      "Авторитетность": "Первоисточники",
+      "Много ли новостей": "Средне на клуб",
+      "Для чего использовать": "Подтверждения травм, составов и трансферов",
+      "Есть RSS?": "У части клубов",
+      "Есть API?": "Единого API нет",
+      "Бесплатно?": "Основные новости"
+    },
+    "home": "",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "excluded",
+    "scope": "excluded",
+    "exclusion_reason": "official_club_sites_excluded_by_user",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "football_london",
+    "name": "Football London",
+    "workbook_row": 11,
+    "workbook_claims": {
+      "Источник": "Football London",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Много по своим клубам",
+      "Для чего использовать": "Arsenal, Chelsea, Tottenham",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Открытые материалы"
+    },
+    "home": "https://www.football.london/",
+    "feed_candidates": [
+      "https://www.football.london/?service=rss",
+      "https://www.football.london/chelsea-fc/?service=rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "reach",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "manchester_evening_news",
+    "name": "Manchester Evening News",
+    "workbook_row": 12,
+    "workbook_claims": {
+      "Источник": "Manchester Evening News",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Manchester United, Manchester City",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Открытые материалы"
+    },
+    "home": "https://www.manchestereveningnews.co.uk/sport/football/",
+    "feed_candidates": [
+      "https://www.manchestereveningnews.co.uk/sport/football/?service=rss",
+      "https://www.manchestereveningnews.co.uk/all-about/manchester-united-fc?service=rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "reach",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "liverpool_echo",
+    "name": "Liverpool Echo",
+    "workbook_row": 13,
+    "workbook_claims": {
+      "Источник": "Liverpool Echo",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Liverpool, Everton",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Открытые материалы"
+    },
+    "home": "https://www.liverpoolecho.co.uk/sport/football/",
+    "feed_candidates": [
+      "https://www.liverpoolecho.co.uk/sport/football/?service=rss",
+      "https://www.liverpoolecho.co.uk/all-about/liverpool-fc?service=rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "reach",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "chronicle_live",
+    "name": "Chronicle Live",
+    "workbook_row": 14,
+    "workbook_claims": {
+      "Источник": "Chronicle Live",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Newcastle, Sunderland",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Открытые материалы"
+    },
+    "home": "https://www.chroniclelive.co.uk/sport/football/",
+    "feed_candidates": [
+      "https://www.chroniclelive.co.uk/sport/football/?service=rss",
+      "https://www.chroniclelive.co.uk/all-about/newcastle-united-fc?service=rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "reach",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "bournemouth_echo",
+    "name": "Bournemouth Echo",
+    "workbook_row": 15,
+    "workbook_claims": {
+      "Источник": "Bournemouth Echo",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Средне",
+      "Для чего использовать": "Bournemouth, пресс-конференции, травмы",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Проверенные материалы доступны"
+    },
+    "home": "https://www.bournemouthecho.co.uk/sport/cherries/",
+    "feed_candidates": [
+      "https://www.bournemouthecho.co.uk/sport/cherries/clubnews/rss/",
+      "https://www.bournemouthecho.co.uk/sport/cherries/rss/",
+      "https://www.bournemouthecho.co.uk/sport/rss/"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "newsquest",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "the_argus",
+    "name": "The Argus",
+    "workbook_row": 16,
+    "workbook_claims": {
+      "Источник": "The Argus",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Средне",
+      "Для чего использовать": "Brighton, пресс-конференции, травмы",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Проверенные материалы доступны"
+    },
+    "home": "https://www.theargus.co.uk/sport/albion/",
+    "feed_candidates": [
+      "https://www.theargus.co.uk/sport/albion/rss/",
+      "https://www.theargus.co.uk/sport/rss/"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "newsquest",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "west_london_sport",
+    "name": "West London Sport",
+    "workbook_row": 17,
+    "workbook_claims": {
+      "Источник": "West London Sport",
+      "Приоритет": "П1",
+      "Авторитетность": "Клубная экспертиза",
+      "Много ли новостей": "Средне",
+      "Для чего использовать": "Brentford, Fulham",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.westlondonsport.com/",
+    "feed_candidates": [
+      "https://www.westlondonsport.com/feed"
+    ],
+    "api_candidates": [
+      "https://www.westlondonsport.com/wp-json/wp/v2/posts"
+    ],
+    "sitemap_candidates": [
+      "https://www.westlondonsport.com/post-sitemap.xml"
+    ],
+    "kind": "wordpress",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "fotmob",
+    "name": "FotMob",
+    "workbook_row": 18,
+    "workbook_claims": {
+      "Источник": "FotMob",
+      "Приоритет": "П1",
+      "Авторитетность": "Профильный сервис",
+      "Много ли новостей": "Данные и новости",
+      "Для чего использовать": "Календарь, результаты, переходы",
+      "Есть RSS?": "Да, новости",
+      "Есть API?": "Публичный API не подтверждён; JSON в HTML",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.fotmob.com/news",
+    "feed_candidates": [
+      "https://www.fotmob.com/rss/news"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "premier_league",
+    "name": "Premier League",
+    "workbook_row": 19,
+    "workbook_claims": {
+      "Источник": "Premier League",
+      "Приоритет": "П1",
+      "Авторитетность": "Официальный",
+      "Много ли новостей": "Средне",
+      "Для чего использовать": "Подтверждения, травмы, дисквалификации, трансферы",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Общий API не подтверждён",
+      "Бесплатно?": "Да; сайт динамический"
+    },
+    "home": "https://www.premierleague.com/en/news",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.premierleague.com/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "the_fa",
+    "name": "The FA",
+    "workbook_row": 20,
+    "workbook_claims": {
+      "Источник": "The FA",
+      "Приоритет": "П1",
+      "Авторитетность": "Официальный",
+      "Много ли новостей": "По решениям",
+      "Для чего использовать": "Дисквалификации, санкции, апелляции",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.thefa.com/news",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.thefa.com/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "livescore",
+    "name": "LiveScore",
+    "workbook_row": 21,
+    "workbook_claims": {
+      "Источник": "LiveScore",
+      "Приоритет": "П2",
+      "Авторитетность": "Профильный сервис",
+      "Много ли новостей": "Данные",
+      "Для чего использовать": "Результаты, календарь, резерв матчевых данных",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Публичный API не подтверждён; JSON в HTML",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.livescore.com/en/news/",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.livescore.com/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "goal",
+    "name": "GOAL",
+    "workbook_row": 22,
+    "workbook_claims": {
+      "Источник": "GOAL",
+      "Приоритет": "П2",
+      "Авторитетность": "Средняя / высокая",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Общие новости, трансферы",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Проверенные материалы доступны"
+    },
+    "home": "https://www.goal.com/en/news",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.goal.com/en/sitemap/google-news.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "fourfourtwo",
+    "name": "FourFourTwo",
+    "workbook_row": 23,
+    "workbook_claims": {
+      "Источник": "FourFourTwo",
+      "Приоритет": "П2",
+      "Авторитетность": "Высокая",
+      "Много ли новостей": "Средне",
+      "Для чего использовать": "Новости, интервью, контекст",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Проверенные материалы доступны"
+    },
+    "home": "https://www.fourfourtwo.com/news",
+    "feed_candidates": [
+      "https://www.fourfourtwo.com/feeds.xml"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.fourfourtwo.com/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "mirror",
+    "name": "Mirror",
+    "workbook_row": 24,
+    "workbook_claims": {
+      "Источник": "Mirror",
+      "Приоритет": "П2",
+      "Авторитетность": "Средняя",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Дополнительные новости, трансферы",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Проверенные материалы доступны"
+    },
+    "home": "https://www.mirror.co.uk/sport/football/",
+    "feed_candidates": [
+      "https://www.mirror.co.uk/sport/football/?service=rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "reach",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "teamtalk",
+    "name": "TEAMtalk",
+    "workbook_row": 25,
+    "workbook_claims": {
+      "Источник": "TEAMtalk",
+      "Приоритет": "П2",
+      "Авторитетность": "Средняя",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Трансферные сообщения и слухи",
+      "Есть RSS?": "Не найден рабочий",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.teamtalk.com/",
+    "feed_candidates": [
+      "https://www.teamtalk.com/feed",
+      "https://www.teamtalk.com/rss"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.teamtalk.com/teamtalk-post-sitemap0.xml"
+    ],
+    "kind": "teamtalk",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "football_insider",
+    "name": "Football Insider",
+    "workbook_row": 26,
+    "workbook_claims": {
+      "Источник": "Football Insider",
+      "Приоритет": "П2",
+      "Авторитетность": "Средняя",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Трансферы, клубные сообщения",
+      "Есть RSS?": "Да, с текстом",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.footballinsider247.com/",
+    "feed_candidates": [
+      "https://www.footballinsider247.com/feed/"
+    ],
+    "api_candidates": [
+      "https://www.footballinsider247.com/wp-json/wp/v2/posts"
+    ],
+    "sitemap_candidates": [
+      "https://www.footballinsider247.com/post-sitemap.xml"
+    ],
+    "kind": "wordpress",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "caughtoffside",
+    "name": "CaughtOffside",
+    "workbook_row": 27,
+    "workbook_claims": {
+      "Источник": "CaughtOffside",
+      "Приоритет": "П2",
+      "Авторитетность": "Средняя",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Дополнительный поток трансферных слухов",
+      "Есть RSS?": "Да, с текстом",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.caughtoffside.com/",
+    "feed_candidates": [
+      "https://www.caughtoffside.com/feed/"
+    ],
+    "api_candidates": [
+      "https://www.caughtoffside.com/wp-json/wp/v2/posts"
+    ],
+    "sitemap_candidates": [
+      "https://www.caughtoffside.com/post-sitemap.xml"
+    ],
+    "kind": "wordpress",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "gianluca_di_marzio",
+    "name": "Gianluca Di Marzio",
+    "workbook_row": 28,
+    "workbook_claims": {
+      "Источник": "Gianluca Di Marzio",
+      "Приоритет": "П2",
+      "Авторитетность": "Высокая в трансферах",
+      "Много ли новостей": "АПЛ — часть потока",
+      "Для чего использовать": "Переговоры, переходы между АПЛ и Италией",
+      "Есть RSS?": "Да",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Да"
+    },
+    "home": "https://www.gianlucadimarzio.com/",
+    "feed_candidates": [
+      "https://www.gianlucadimarzio.com/rss/"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.gianlucadimarzio.com/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "fabrizio_romano",
+    "name": "Fabrizio Romano",
+    "workbook_row": 29,
+    "workbook_claims": {
+      "Источник": "Fabrizio Romano",
+      "Приоритет": "П2",
+      "Авторитетность": "Высокая в трансферах",
+      "Много ли новостей": "Много",
+      "Для чего использовать": "Ранние сообщения о переговорах и сделках",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Через платный X API",
+      "Бесплатно?": "Чтение частично; API платный"
+    },
+    "home": "https://x.com/FabrizioRomano",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "social",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "david_ornstein",
+    "name": "David Ornstein",
+    "workbook_row": 30,
+    "workbook_claims": {
+      "Источник": "David Ornstein",
+      "Приоритет": "П2",
+      "Авторитетность": "Высокая",
+      "Много ли новостей": "Средне",
+      "Для чего использовать": "Ранние трансферные и клубные сообщения",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Через платный X API",
+      "Бесплатно?": "Частично; The Athletic по подписке"
+    },
+    "home": "https://www.nytimes.com/athletic/author/david-ornstein/",
+    "feed_candidates": [
+      "https://www.nytimes.com/athletic/rss/author/david-ornstein/"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "author_feed",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "premier_injuries",
+    "name": "Premier Injuries",
+    "workbook_row": 31,
+    "workbook_claims": {
+      "Источник": "Premier Injuries",
+      "Приоритет": "П2",
+      "Авторитетность": "Высокая в своей теме",
+      "Много ли новостей": "Сводка по лиге",
+      "Для чего использовать": "Травмы, ожидаемое возвращение",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Доступ к сбору ограничен: 403"
+    },
+    "home": "https://www.premierinjuries.com/injury-table.php",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "excluded",
+    "scope": "excluded",
+    "exclusion_reason": "structured_data_excluded_by_user",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "squawka",
+    "name": "Squawka",
+    "workbook_row": 32,
+    "workbook_claims": {
+      "Источник": "Squawka",
+      "Приоритет": "П2",
+      "Авторитетность": "Средняя, агрегирует источники",
+      "Много ли новостей": "Сводка по лиге",
+      "Для чего использовать": "Резерв по травмам и дисквалификациям",
+      "Есть RSS?": "Проверка дала 403",
+      "Есть API?": "Не подтверждён",
+      "Бесплатно?": "Доступ к сбору ограничен: 403"
+    },
+    "home": "https://www.squawka.com/en/news/",
+    "feed_candidates": [
+      "https://www.squawka.com/en/feed/"
+    ],
+    "api_candidates": [],
+    "sitemap_candidates": [
+      "https://www.squawka.com/sitemap.xml"
+    ],
+    "kind": "html",
+    "scope": "news",
+    "exclusion_reason": "",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "api_football",
+    "name": "API-Football",
+    "workbook_row": 33,
+    "workbook_claims": {
+      "Источник": "API-Football",
+      "Приоритет": "П2",
+      "Авторитетность": "Проф. поставщик данных",
+      "Много ли новостей": "Данные",
+      "Для чего использовать": "Матчи, события, составы, травмы, переходы",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Да, по ключу",
+      "Бесплатно?": "100 запросов/день; ограничения сезонов"
+    },
+    "home": "https://www.api-football.com/",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "excluded",
+    "scope": "excluded",
+    "exclusion_reason": "structured_data_excluded_by_user",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "sportmonks",
+    "name": "Sportmonks",
+    "workbook_row": 34,
+    "workbook_claims": {
+      "Источник": "Sportmonks",
+      "Приоритет": "П2",
+      "Авторитетность": "Проф. поставщик данных",
+      "Много ли новостей": "Данные",
+      "Для чего использовать": "Live, события матчей, составы",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Да, по ключу",
+      "Бесплатно?": "АПЛ платная; есть пробный период"
+    },
+    "home": "https://www.sportmonks.com/",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "excluded",
+    "scope": "excluded",
+    "exclusion_reason": "structured_data_excluded_by_user",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  },
+  {
+    "id": "football_data_org",
+    "name": "football-data.org",
+    "workbook_row": 35,
+    "workbook_claims": {
+      "Источник": "football-data.org",
+      "Приоритет": "П2",
+      "Авторитетность": "Профильный поставщик",
+      "Много ли новостей": "Данные",
+      "Для чего использовать": "Календарь, результаты, таблицы",
+      "Есть RSS?": "Не подтверждён",
+      "Есть API?": "Да, по ключу",
+      "Бесплатно?": "Бесплатно с задержкой; live платный"
+    },
+    "home": "https://www.football-data.org/",
+    "feed_candidates": [],
+    "api_candidates": [],
+    "sitemap_candidates": [],
+    "kind": "excluded",
+    "scope": "excluded",
+    "exclusion_reason": "structured_data_excluded_by_user",
+    "api_note": "No documented public news API verified; audit records endpoint evidence separately."
+  }
+]

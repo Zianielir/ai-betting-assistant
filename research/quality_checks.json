@@ -1,0 +1,369 @@
+{
+  "all_checks_passed": true,
+  "source_rows": 34,
+  "counts": {
+    "news": 4515,
+    "posts": 0,
+    "partial": 264,
+    "review": 2378,
+    "excluded": 270
+  },
+  "sources": [
+    {
+      "source_id": "sky_sports",
+      "records": 262,
+      "counts": {
+        "news": 123,
+        "posts": 0,
+        "partial": 0,
+        "review": 129,
+        "excluded": 10
+      },
+      "script": true
+    },
+    {
+      "source_id": "espn",
+      "records": 59,
+      "counts": {
+        "news": 22,
+        "posts": 0,
+        "partial": 0,
+        "review": 37,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "talksport",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "independent",
+      "records": 241,
+      "counts": {
+        "news": 148,
+        "posts": 0,
+        "partial": 3,
+        "review": 79,
+        "excluded": 11
+      },
+      "script": true
+    },
+    {
+      "source_id": "fantasy_football_scout",
+      "records": 127,
+      "counts": {
+        "news": 88,
+        "posts": 0,
+        "partial": 0,
+        "review": 39,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "rotowire",
+      "records": 98,
+      "counts": {
+        "news": 19,
+        "posts": 0,
+        "partial": 2,
+        "review": 17,
+        "excluded": 60
+      },
+      "script": true
+    },
+    {
+      "source_id": "sports_mole",
+      "records": 1019,
+      "counts": {
+        "news": 562,
+        "posts": 0,
+        "partial": 0,
+        "review": 442,
+        "excluded": 15
+      },
+      "script": true
+    },
+    {
+      "source_id": "fpl",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "official_clubs",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "football_london",
+      "records": 322,
+      "counts": {
+        "news": 289,
+        "posts": 0,
+        "partial": 0,
+        "review": 15,
+        "excluded": 18
+      },
+      "script": true
+    },
+    {
+      "source_id": "manchester_evening_news",
+      "records": 426,
+      "counts": {
+        "news": 291,
+        "posts": 0,
+        "partial": 23,
+        "review": 89,
+        "excluded": 23
+      },
+      "script": true
+    },
+    {
+      "source_id": "liverpool_echo",
+      "records": 321,
+      "counts": {
+        "news": 271,
+        "posts": 0,
+        "partial": 25,
+        "review": 10,
+        "excluded": 15
+      },
+      "script": true
+    },
+    {
+      "source_id": "chronicle_live",
+      "records": 173,
+      "counts": {
+        "news": 145,
+        "posts": 0,
+        "partial": 3,
+        "review": 17,
+        "excluded": 8
+      },
+      "script": true
+    },
+    {
+      "source_id": "bournemouth_echo",
+      "records": 67,
+      "counts": {
+        "news": 47,
+        "posts": 0,
+        "partial": 3,
+        "review": 16,
+        "excluded": 1
+      },
+      "script": true
+    },
+    {
+      "source_id": "the_argus",
+      "records": 68,
+      "counts": {
+        "news": 53,
+        "posts": 0,
+        "partial": 0,
+        "review": 12,
+        "excluded": 3
+      },
+      "script": true
+    },
+    {
+      "source_id": "west_london_sport",
+      "records": 82,
+      "counts": {
+        "news": 48,
+        "posts": 0,
+        "partial": 0,
+        "review": 34,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "fotmob",
+      "records": 15,
+      "counts": {
+        "news": 10,
+        "posts": 0,
+        "partial": 0,
+        "review": 5,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "premier_league",
+      "records": 11,
+      "counts": {
+        "news": 0,
+        "posts": 0,
+        "partial": 8,
+        "review": 2,
+        "excluded": 1
+      },
+      "script": true
+    },
+    {
+      "source_id": "the_fa",
+      "records": 76,
+      "counts": {
+        "news": 0,
+        "posts": 0,
+        "partial": 59,
+        "review": 17,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "livescore",
+      "records": 1210,
+      "counts": {
+        "news": 580,
+        "posts": 0,
+        "partial": 3,
+        "review": 611,
+        "excluded": 16
+      },
+      "script": true
+    },
+    {
+      "source_id": "goal",
+      "records": 740,
+      "counts": {
+        "news": 152,
+        "posts": 0,
+        "partial": 1,
+        "review": 564,
+        "excluded": 23
+      },
+      "script": true
+    },
+    {
+      "source_id": "fourfourtwo",
+      "records": 264,
+      "counts": {
+        "news": 138,
+        "posts": 0,
+        "partial": 73,
+        "review": 53,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "mirror",
+      "records": 460,
+      "counts": {
+        "news": 336,
+        "posts": 0,
+        "partial": 30,
+        "review": 88,
+        "excluded": 6
+      },
+      "script": true
+    },
+    {
+      "source_id": "teamtalk",
+      "records": 384,
+      "counts": {
+        "news": 349,
+        "posts": 0,
+        "partial": 22,
+        "review": 13,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "football_insider",
+      "records": 630,
+      "counts": {
+        "news": 515,
+        "posts": 0,
+        "partial": 0,
+        "review": 70,
+        "excluded": 45
+      },
+      "script": true
+    },
+    {
+      "source_id": "caughtoffside",
+      "records": 350,
+      "counts": {
+        "news": 329,
+        "posts": 0,
+        "partial": 0,
+        "review": 19,
+        "excluded": 2
+      },
+      "script": true
+    },
+    {
+      "source_id": "gianluca_di_marzio",
+      "records": 13,
+      "counts": {
+        "news": 0,
+        "posts": 0,
+        "partial": 0,
+        "review": 0,
+        "excluded": 13
+      },
+      "script": false
+    },
+    {
+      "source_id": "fabrizio_romano",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "david_ornstein",
+      "records": 9,
+      "counts": {
+        "news": 0,
+        "posts": 0,
+        "partial": 9,
+        "review": 0,
+        "excluded": 0
+      },
+      "script": true
+    },
+    {
+      "source_id": "premier_injuries",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "squawka",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "api_football",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "sportmonks",
+      "records": 0,
+      "counts": {},
+      "script": false
+    },
+    {
+      "source_id": "football_data_org",
+      "records": 0,
+      "counts": {},
+      "script": false
+    }
+  ],
+  "errors": [],
+  "window": "[2026-10-26 00:00, 2026-11-09 00:00) Europe/Moscow; current frozen initial collection only"
+}

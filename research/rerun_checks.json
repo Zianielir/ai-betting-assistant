@@ -1,0 +1,458 @@
+[
+  {
+    "source_id": "bournemouth_echo",
+    "script": "data/bournemouth_echo/collect.py",
+    "duration_seconds": 31.796,
+    "returncode": 0,
+    "before": 50,
+    "after": 67,
+    "new_urls": 17,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "caughtoffside",
+    "script": "data/caughtoffside/collect.py",
+    "duration_seconds": 3.948,
+    "returncode": 0,
+    "before": 350,
+    "after": 350,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "chronicle_live",
+    "script": "data/chronicle_live/collect.py",
+    "duration_seconds": 1.717,
+    "returncode": 0,
+    "before": 173,
+    "after": 173,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "david_ornstein",
+    "script": "data/david_ornstein/collect.py",
+    "duration_seconds": 1.044,
+    "returncode": 0,
+    "before": 9,
+    "after": 9,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "espn",
+    "script": "data/espn/collect.py",
+    "duration_seconds": 0.66,
+    "returncode": 0,
+    "before": 59,
+    "after": 59,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "fantasy_football_scout",
+    "script": "data/fantasy_football_scout/collect.py",
+    "duration_seconds": 5.228,
+    "returncode": 0,
+    "before": 127,
+    "after": 127,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "football_insider",
+    "script": "data/football_insider/collect.py",
+    "duration_seconds": 0.574,
+    "returncode": 0,
+    "before": 630,
+    "after": 630,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "football_london",
+    "script": "data/football_london/collect.py",
+    "duration_seconds": 1.805,
+    "returncode": 0,
+    "before": 322,
+    "after": 322,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "fotmob",
+    "script": "data/fotmob/collect.py",
+    "duration_seconds": 1.525,
+    "returncode": 0,
+    "before": 15,
+    "after": 15,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "fourfourtwo",
+    "script": "data/fourfourtwo/collect.py",
+    "duration_seconds": 1.9,
+    "returncode": 0,
+    "before": 264,
+    "after": 264,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "goal",
+    "script": "data/goal/collect.py",
+    "duration_seconds": 4.51,
+    "returncode": 0,
+    "before": 740,
+    "after": 740,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "independent",
+    "script": "data/independent/collect.py",
+    "duration_seconds": 1.72,
+    "returncode": 0,
+    "before": 241,
+    "after": 241,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "liverpool_echo",
+    "script": "data/liverpool_echo/collect.py",
+    "duration_seconds": 1.657,
+    "returncode": 0,
+    "before": 321,
+    "after": 321,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "livescore",
+    "script": "data/livescore/collect.py",
+    "duration_seconds": 39.709,
+    "returncode": 0,
+    "before": 1206,
+    "after": 1210,
+    "new_urls": 4,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "manchester_evening_news",
+    "script": "data/manchester_evening_news/collect.py",
+    "duration_seconds": 1.817,
+    "returncode": 0,
+    "before": 426,
+    "after": 426,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "mirror",
+    "script": "data/mirror/collect.py",
+    "duration_seconds": 0.564,
+    "returncode": 0,
+    "before": 460,
+    "after": 460,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "premier_league",
+    "script": "data/premier_league/collect.py",
+    "duration_seconds": 1.663,
+    "returncode": 0,
+    "before": 11,
+    "after": 11,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "rotowire",
+    "script": "data/rotowire/collect.py",
+    "duration_seconds": 0.675,
+    "returncode": 0,
+    "before": 93,
+    "after": 98,
+    "new_urls": 5,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "sky_sports",
+    "script": "data/sky_sports/collect.py",
+    "duration_seconds": 12.15,
+    "returncode": 0,
+    "before": 262,
+    "after": 262,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "sports_mole",
+    "script": "data/sports_mole/collect.py",
+    "duration_seconds": 1.769,
+    "returncode": 0,
+    "before": 1019,
+    "after": 1019,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "teamtalk",
+    "script": "data/teamtalk/collect.py",
+    "duration_seconds": 0.636,
+    "returncode": 0,
+    "before": 384,
+    "after": 384,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "the_argus",
+    "script": "data/the_argus/collect.py",
+    "duration_seconds": 2.142,
+    "returncode": 0,
+    "before": 68,
+    "after": 68,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "the_fa",
+    "script": "data/the_fa/collect.py",
+    "duration_seconds": 28.371,
+    "returncode": 0,
+    "before": 76,
+    "after": 76,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  },
+  {
+    "source_id": "west_london_sport",
+    "script": "data/west_london_sport/collect.py",
+    "duration_seconds": 4.37,
+    "returncode": 0,
+    "before": 82,
+    "after": 82,
+    "new_urls": 0,
+    "old_urls_lost": 0,
+    "csv_duplicate_urls": {
+      "news": 0,
+      "partial": 0,
+      "review": 0,
+      "excluded": 0,
+      "posts": 0
+    },
+    "csv_text_roundtrip": true,
+    "passed": true
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "snapshot_date": "2026-10-26",
+  "provenance": "Prior project source audit inventory.json clubs; same season as collection window. Alias lookup is an aid, not gold article labels.",
+  "aliases": {
+    "Arsenal": [
+      "Arsenal"
+    ],
+    "Aston Villa": [
+      "Aston Villa"
+    ],
+    "Bournemouth": [
+      "Bournemouth",
+      "AFC Bournemouth"
+    ],
+    "Brentford": [
+      "Brentford"
+    ],
+    "Brighton": [
+      "Brighton",
+      "Brighton & Hove Albion",
+      "Brighton and Hove Albion"
+    ],
+    "Chelsea": [
+      "Chelsea"
+    ],
+    "Coventry City": [
+      "Coventry City"
+    ],
+    "Crystal Palace": [
+      "Crystal Palace"
+    ],
+    "Everton": [
+      "Everton"
+    ],
+    "Fulham": [
+      "Fulham"
+    ],
+    "Hull City": [
+      "Hull City"
+    ],
+    "Ipswich Town": [
+      "Ipswich Town"
+    ],
+    "Leeds": [
+      "Leeds",
+      "Leeds United"
+    ],
+    "Liverpool": [
+      "Liverpool"
+    ],
+    "Man City": [
+      "Man City",
+      "Manchester City",
+      "Man. City"
+    ],
+    "Man Utd": [
+      "Man Utd",
+      "Manchester United",
+      "Man United",
+      "Man. United"
+    ],
+    "Newcastle": [
+      "Newcastle",
+      "Newcastle United"
+    ],
+    "Nott'm Forest": [
+      "Nott'm Forest",
+      "Nottingham Forest",
+      "Nottm Forest"
+    ],
+    "Spurs": [
+      "Spurs",
+      "Tottenham",
+      "Tottenham Hotspur"
+    ],
+    "Sunderland": [
+      "Sunderland"
+    ]
+  }
+}

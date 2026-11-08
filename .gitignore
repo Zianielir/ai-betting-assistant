@@ -216,5 +216,23 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Local full-text research corpus and HTTP evidence (kept on the user's computer)
+/data/*/raw/
+/data/*/records.jsonl
+/data/*/revisions.jsonl
+/data/*/http_events.jsonl
+/data/*/news.csv
+/data/*/posts.csv
+/data/*/partial.csv
+/data/*/review.csv
+/data/*/excluded.csv
+/data/*/audit.json
+/data/*/last_run.json
+/data/*/runs.jsonl
+/data/*/verification.json
+/data/*/.collect.lock
+*.tmp
+/.jupyter/
+
 # Streamlit
 .streamlit/secrets.toml
